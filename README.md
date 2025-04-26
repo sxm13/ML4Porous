@@ -38,26 +38,26 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 
 ### Partial atomic charge models
 *unit: e
-| Reference | Model | R² | MAE | RMSE | Target | Framework | Year |
-|:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|
-| 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF |  |
+| Reference | Model | R² | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
+|:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|
+| 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 |
 | 10.1021/acs.chemmater.0c02468 | [MLDA](https://github.com/scidatasoft/mof/tree/master) | - | 0.0096 | 0.0176 | DDEC | MOF |  |
-|  | MLDA | - | 0.0500 | - | DDEC | COF |  |
+|  |  | - | 0.0500 | - | DDEC | COF |  |
 | 10.1021/acs.jctc.0c01229 | [PACMOF-v1](https://github.com/arung-northwestern/pacmof) | 0.9952 | 0.0192 | 0.0337 | DDEC | MOF |  |
-|  | PACMOF-v1 | 0.9241 | 0.0570 | - | DDEC | porous molecular crystals |  |
-|  | PACMOF-v1 | 0.9969 | 0.0100 | - | CM5 | MOF |  |
-|  | PACMOF-v1 | 0.9175 | 0.0360 | - | CM5 | porous molecular crystals |  |
+|  |  | 0.9241 | 0.0570 | - | DDEC | porous molecular crystals |  |
+|  |  | 0.9969 | 0.0100 | - | CM5 | MOF |  |
+|  |  | 0.9175 | 0.0360 | - | CM5 | porous molecular crystals |  |
 | 10.1021/acs.jpcc.4c04879 | [PACMOF-v2](https://github.com/snurr-group/pacmof2) | 0.9937 | 0.0229 | 0.0376 | DDEC6 | neutral-MOF |  |
-|  | PACMOF-v2 | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF |  |
-|  | PACMOF-v2 | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF |  |
-|  | PACMOF-v2 | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite |  |
+|  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF |  |
+|  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF |  |
+|  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite |  |
 | 10.1038/s41524-024-01277-8 | [MOF-AL](https://github.com/tummfm/mof-al) | - | 0.0290 | - | DDEC6 | MOF |  |
-|  | MOF-AL | - | 0.0368 | - | DDEC6 | Zeolite |  |
-|  | MOF-AL | - | 0.0239 | - | REPEAT | MOF |  |
+|  | | - | 0.0368 | - | DDEC6 | Zeolite |  |
+|  | | - | 0.0239 | - | REPEAT | MOF |  |
 | 10.1038/s41524-024-01413-4 | [MEPO-ML](https://github.com/uowoolab/MEPO-ML) | - | 0.0250 | - | REPEAT | MOF |  |
 | 10.1021/acs.jctc.4c00434 | [PACMAN](https://github.com/mtap-research/PACMAN-charge) | 0.9994 | 0.0055 | 0.0094 | DDEC6 | MOF | |
-|  | PACMAN | 0.9996 | 0.0032 | 0.0051 | CM5 | MOF |  |
-|  | PACMAN | 0.9976 | 0.0224 | 0.0358 | Bader | MOF |  |
-|  | PACMAN | 0.9722 | 0.0419 | 0.0419 | REPEAT | MOF |  |
-|  | PACMAN | 0.9927 | 0.0095 | 0.0159 | DDEC6 | COF |  |
-|  | PACMAN | - | 0.0245 | - | DDEC6 | Zeolite |  |
+|  | | 0.9996 | 0.0032 | 0.0051 | CM5 | MOF |  |
+|  | | 0.9976 | 0.0224 | 0.0358 | Bader | MOF |  |
+|  | | 0.9722 | 0.0419 | 0.0419 | REPEAT | MOF |  |
+|  | | 0.9927 | 0.0095 | 0.0159 | DDEC6 | COF |  |
+|  | | - | 0.0245 | - | DDEC6 | Zeolite |  |
