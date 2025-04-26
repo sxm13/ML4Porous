@@ -40,8 +40,8 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 *unit: e
 | Reference | Model | R² | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|
-| 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 |
-| 10.1021/acs.chemmater.0c02468 | [MLDA](https://github.com/scidatasoft/mof/tree/master) | - | 0.0096 | 0.0176 | DDEC | MOF |  |
+| 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,266) | 0.7 : 0.1 : 0.2 |
+| 10.1021/acs.chemmater.0c02468 | [GBDT](https://github.com/scidatasoft/mof/) | - | 0.0096 | 0.0176 | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,266)| 0.9 : - : 0.1 |
 |  |  | - | 0.0500 | - | DDEC | COF |  |
 | 10.1021/acs.jctc.0c01229 | [PACMOF-v1](https://github.com/arung-northwestern/pacmof) | 0.9952 | 0.0192 | 0.0337 | DDEC | MOF |  |
 |  |  | 0.9241 | 0.0570 | - | DDEC | porous molecular crystals |  |
