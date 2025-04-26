@@ -4,7 +4,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
                                                  
                                       
 ### Band gap models
-*unit: eV
+**unit**: eV
 | DOI | Model | R² | MAE | RMSE | SRCC | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:------|:---|:----|:-----|:-----|:------|:------|:------|
 | 10.1016/j.matt.2021.02.015   | [CGCNN](https://github.com/Andrew-S-Rosen/QMOF/tree/main/machine_learning/cgcnn) | 0.876 | 0.274 | - | 0.932 | 2021 | QMOF-PBE-D3(BJ) (14,482) | 0.8 : 0.1 : 0.1 |
@@ -37,7 +37,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | [AI2ASE 2025](https://ai-2-ase.github.io/papers/27_1_AAAI_2025_AI4ASE_workshop_MOF.pdf) | [M-MOFormer](https://github.com/IkeYang/M-MOFormer) | - | 0.359 | - | - | 2025 | QMOF-PBE-D3(BJ) (unknown) | 0.7 : 0.15 : 0.15 |
 
 ### Partial atomic charge models
-*unit: e
+**unit**: e
 | Reference | Model | R² | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|
 | 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,266) | 0.7 : 0.1 : 0.2 |
