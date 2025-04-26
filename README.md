@@ -41,23 +41,23 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | Reference | Model | R² | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|
 | 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,266) | 0.7 : 0.1 : 0.2 |
-| 10.1021/acs.chemmater.0c02468 | [GBDT](https://github.com/scidatasoft/mof/) | - | 0.0096 | 0.0176 | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,266)| 0.9 : - : 0.1 |
-|  |  | - | 0.0500 | - | DDEC | COF |  |
-| 10.1021/acs.jctc.0c01229 | [PACMOF-v1](https://github.com/arung-northwestern/pacmof) | 0.9952 | 0.0192 | 0.0337 | DDEC | MOF |  |
-|  |  | 0.9241 | 0.0570 | - | DDEC | porous molecular crystals |  |
-|  |  | 0.9969 | 0.0100 | - | CM5 | MOF |  |
-|  |  | 0.9175 | 0.0360 | - | CM5 | porous molecular crystals |  |
-| 10.1021/acs.jpcc.4c04879 | [PACMOF-v2](https://github.com/snurr-group/pacmof2) | 0.9937 | 0.0229 | 0.0376 | DDEC6 | neutral-MOF |  |
-|  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF |  |
-|  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF |  |
-|  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite |  |
-| 10.1038/s41524-024-01277-8 | [MOF-AL](https://github.com/tummfm/mof-al) | - | 0.0290 | - | DDEC6 | MOF |  |
-|  | | - | 0.0368 | - | DDEC6 | Zeolite |  |
-|  | | - | 0.0239 | - | REPEAT | MOF |  |
-| 10.1038/s41524-024-01413-4 | [MEPO-ML](https://github.com/uowoolab/MEPO-ML) | - | 0.0250 | - | REPEAT | MOF |  |
-| 10.1021/acs.jctc.4c00434 | [PACMAN](https://github.com/mtap-research/PACMAN-charge) | 0.9994 | 0.0055 | 0.0094 | DDEC6 | MOF | |
-|  | | 0.9996 | 0.0032 | 0.0051 | CM5 | MOF |  |
-|  | | 0.9976 | 0.0224 | 0.0358 | Bader | MOF |  |
-|  | | 0.9722 | 0.0419 | 0.0419 | REPEAT | MOF |  |
-|  | | 0.9927 | 0.0095 | 0.0159 | DDEC6 | COF |  |
-|  | | - | 0.0245 | - | DDEC6 | Zeolite |  |
+| 10.1021/acs.chemmater.0c02468 | [GBDT](https://github.com/scidatasoft/mof/) | - | 0.0096 | 0.0176 | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,932)| 0.9 : - : 0.1 |
+|  |  | - | 0.0500 | - | DDEC | COF | 2020 | CoRE MOF 2014 DDEC (2,932)| 0.9 : - : 0.1 |
+| 10.1021/acs.jctc.0c01229 | [PACMOF-v1](https://github.com/arung-northwestern/pacmof) | 0.9952 | 0.0192 | 0.0337 | DDEC6 | MOF | 2021 |  CoRE MOF 2019 (2,974) | 0.8 : 0.2 |
+|  |  | 0.9241 | 0.0570 | - | DDEC | porous molecular crystals | 2021 |  CoRE MOF 2019 (2,974) | 0.8 : 0.2 |
+|  |  | 0.9969 | 0.0100 | - | CM5 | MOF | 2021 |  CoRE MOF 2019 (2,974) | 0.8 : 0.2 |
+|  |  | 0.9175 | 0.0360 | - | CM5 | porous molecular crystals | 2021 |  CoRE MOF 2019 (2,974) | 0.8 : 0.2 |
+| 10.1038/s41524-024-01277-8 | [AL-GNN](https://github.com/tummfm/mof-al) | - | 0.0290 | - | DDEC6 | MOF | 2024 | QMOF (11,173) | 0.8 : 0.08 : 0.12 |
+|  | | - | 0.0368 | - | DDEC6 | Zeolite | 2024 | ARC-MOF (without DB12 and DB1) | benchmark |
+|  | | - | 0.0239 | - | DDEC6 | MOF | 2024 | ARC-MOF (without DB12 and DB1) | benchmark |
+| 10.1021/acs.jctc.4c00434 | [PACMAN](https://github.com/mtap-research/PACMAN-charge) | 0.9994 | 0.0055 | 0.0094 | DDEC6 | MOF | 2024 | QMOF (16,779) | 0.8 : 0.1 : 0.1 |
+|  | | 0.9996 | 0.0032 | 0.0051 | CM5 | MOF | 2024 | QMOF (16,779) | 0.8 : 0.1 : 0.1 |
+|  | | 0.9976 | 0.0224 | 0.0358 | Bader | MOF | 2024 | QMOF () | 0.8 : 0.1 : 0.1 |
+|  | | 0.9722 | 0.0419 | 0.0419 | REPEAT | MOF | 2024 | ARC-MOF (27,912) | 0.8 : 0.1 : 0.1 |
+|  | | 0.9927 | 0.0095 | 0.0159 | DDEC6 | COF | 2024 | CURATED COF (612) | benchmark |
+|  | | - | 0.0245 | - | DDEC6 | 2024 | IZA DB (258) | benchmark |
+| 10.1038/s41524-024-01413-4 | [MEPO-ML](https://github.com/uowoolab/MEPO-ML) | - | 0.0250 | - | REPEAT | MOF | 2024 | ARC-MOF (279,632) | 0.8 : 0.1 : 0.1 |
+| 10.1021/acs.jpcc.4c04879 | [PACMOF-v2](https://github.com/snurr-group/pacmof2) | 0.9937 | 0.0229 | 0.0376 | DDEC6 | neutral-MOF | 2024 | CoRE MOF 2019 (3,378) & QMOF (19,961) & CSD MOF (18,928) | 0.8 : - : 0.2 |
+|  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF | 2024 | CSD MOF (7,598) | 0.8 : - : 0.2 |
+|  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF | 2024 | CURATED COF (792) | benchmark |
+|  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite | 2024 | (220) |  |
