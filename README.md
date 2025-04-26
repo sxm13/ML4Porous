@@ -19,8 +19,8 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/jacs.2c11420       | [MOFormer](https://github.com/zcao0420/MOFormer) | - | 0.387 | - | - | - |
 | [AI2ASE 2025](https://ai-2-ase.github.io/papers/27_1_AAAI_2025_AI4ASE_workshop_MOF.pdf) | [M-MOFormer](https://github.com/IkeYang/M-MOFormer) | - | 0.359 | - | - | - |
 | 10.1021/acs.jpclett.3c00187 | CGCNN | 0.709 | 0.393 | 0.585 | - | - |
-| 10.1021/acs.jpclett.3c00187 | MEGNet | 0.767 | 0.368 | 0.523 | - | - |
-| 10.1021/acs.jpclett.3c00187 | MEGNet-tuned | 0.787 | 0.332 | 0.500 | - | - |
+|  | MEGNet | 0.767 | 0.368 | 0.523 | - | - |
+|  | MEGNet-tuned | 0.787 | 0.332 | 0.500 | - | - |
 | 10.1002/adfm.202313596 | CGCNN | 0.820 | 0.330 | - | - | - |
 | 10.26434/chemrxiv-2024-0mkw8 | RR | 0.169 | 0.091 | - | - | - |
 | 10.26434/chemrxiv-2024-0mkw8 | LIR | 0.000 | 0.099 | - | - | - |
