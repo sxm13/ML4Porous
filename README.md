@@ -14,9 +14,9 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | [KRR (Sine Coulomb matrix)](https://github.com/Andrew-S-Rosen/QMOF/tree/main/machine_learning/sine_matrix) | 0.643 | 0.529 | - | 0.787 | 2021 | QMOF-PBE-D3(BJ) (14,482) | 0.8 : - : 0.2 |
 | | [KRR (Constant mean model)](https://github.com/Andrew-S-Rosen/QMOF/tree/main/machine_learning) | - | 0.973 | - | - | 2021 | QMOF-PBE-D3(BJ) (14,482) | 0.8 : - : 0.2 |
 | 10.1107/S1600576722009797    | [CNN from PXRD](https://github.com/gomezperalta/band-gap_pxrd/) | - | 0.492 | 0.674 | - | 2022 | QMOF-PBE-D3(BJ) (16,029) | 0.8 : - : 0.2 |
-| 10.1021/jacs.2c11420         | [MOFormer](https://github.com/zcao0420/MOFormer) | - | 0.387 | - | - | - |2022 | QMOF-PBE-D3(BJ) (7,466) | 0.8 : - : 0.2 |
 | 10.1021/acsami.3c10323       | [PMTransformer](https://github.com/hspark1212/MOFTransformer)  | - | 0.216 | - | - | 2023 | QMOF-PBE-D3(BJ) (20,000) | 0.8 : 0.1 : 0.1 |
 | 10.1038/s42256-023-00628-2   | [MOFTransformer](https://github.com/hspark1212/MOFTransformer) | - | 0.224 | - | - | 2023 | QMOF-PBE-D3(BJ) (20,000) | 0.8 : 0.1 : 0.1 |
+| 10.1021/jacs.2c11420         | [MOFormer](https://github.com/zcao0420/MOFormer) | - | 0.387 | - | - | 2023 | QMOF-PBE-D3(BJ) (7,466) | 0.8 : - : 0.2 |
 | 10.1021/acs.jpclett.3c00187  | CGCNN | 0.709 | 0.393 | 0.585 | - | 2023 | QMOF-HSE06 (10,811) | 0.8 : 0.1 : 0.1 |
 | | MEGNet | 0.767 | 0.368 | 0.523 | - |  2023 | QMOF-HSE06 (10,811) | 0.8 : 0.1 : 0.1 |
 | | MEGNet-tuned | 0.787 | 0.332 | 0.500 | - |  2023 | QMOF-HSE06 (10,811) | 0.8 : 0.1 : 0.1 |
