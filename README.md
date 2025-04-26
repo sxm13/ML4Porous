@@ -55,7 +55,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |  | | 0.9976 | 0.0224 | 0.0358 | Bader | MOF | 2024 | QMOF (11,230) | 0.8 : 0.1 : 0.1 |
 |  | | 0.9722 | 0.0419 | 0.0419 | REPEAT | MOF | 2024 | ARC-MOF (40,000) | 0.8 : 0.1 : 0.1 |
 |  | | 0.9927 | 0.0095 | 0.0159 | DDEC6 | COF | 2024 | CURATED COF (612) | benchmark |
-|  | | - | 0.0245 | - | DDEC6 | 2024 | IZA DB (258) | benchmark |
+|  | | - | 0.0245 | - | DDEC6 | Zeolite | 2024 | IZA DB (258) | benchmark |
 | 10.1038/s41524-024-01413-4 | [MEPO-ML](https://github.com/uowoolab/MEPO-ML) | - | 0.0250 | - | REPEAT | MOF | 2024 | ARC-MOF (279,632) | 0.8 : 0.1 : 0.1 |
 | 10.1021/acs.jpcc.4c04879 | [PACMOF-v2](https://github.com/snurr-group/pacmof2) | 0.9937 | 0.0229 | 0.0376 | DDEC6 | neutral-MOF | 2024 | CoRE MOF 2019 (3,378) & QMOF (19,961) & CSD MOF (18,928) | 0.8 : - : 0.2 |
 |  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF | 2024 | CSD MOF (7,598) | 0.8 : - : 0.2 |
