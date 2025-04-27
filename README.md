@@ -108,8 +108,16 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1002/anie.202500783 | [XGBoost](https://github.com/breezy-ying/Data-and-ML-Models) | 0.968,0.984 | | | | | C2H6/C2H4 selectivity,C2H6 | 10%C2H6:90%C2H4@1bar | MOF-5 Analogs | 2025 | CSD MOF (2,824) | 0.8 : - : 0.2 |
 
 ### Machine learning potential
-| DOI | Model | Purpose | Year |
-|:----------|:------|:-------|:-----|
+| DOI | Model | Purpose | Year | Dataset | 
+|:----------|:------|:-------|:-----|:-----|
+| 10.1039/D1MA01152A | DNN | [CO2,H2O@MOF-74](https://www.rsc.org/suppdata/d1/ma/d1ma01152a/d1ma01152a1.zip) | 2022 | Energy,PBE-D3 |
+| 10.1038/s41524-023-00969-x | [NequIP](https://doi.org/10.5281/zenodo.7539133) | [UiO-66(Zr),MIL-53(Al)](https://doi.org/10.5281/zenodo.6359970) | 2023 | QM energy,PBE-D3 |
+| 10.1021/acs.jctc.3c00495 | NequIP | [ZIF-8,Mg-MOF-74](https://zenodo.org/records/7904959) | 2023 | 0-32 CO2@ZIF-8/Mg-MOF-74,relax,PBE-D3 (BJ)|
+| 10.1039/D3NR05966A | DeePMD-kit | [2D MOF(NiF2(pyrazine)2)](https://zenodo.org/records/7904959) | 2024 | AIMD,NVT(100,200,300K),10,000*0.5fs,PBE |
+| 10.1039/D3SC05612K | DeePMD-kit | [H2@Al-soc-MOF-1d](https://doi.org/10.5281/zenodo.10686480)  | 2024 | 0.31-5.25wt.%H2,AIMD,NVT(10-100K),1,000*0.5fs,PBE-D3 |
+| 10.1038/s41524-024-01427-y | [SNAP](https://github.com/asharma-ms/MOF_MLP_2024) | [ZIF-8,MOF-5](https://doi.org/10.5281/zenodo.11176257) | 2024 | AIMD,NVT(100-1,000K),2,000*0.5fs,PBE |
+| 10.1038/s41524-024-01205-w | [SkoltechMLIP](https://mlip.skoltech.ru/download) | [MIL-53,MOF-74,MOF-5,UiO-66](https://repository.tugraz.at/records/wyc7s-8en40) | 2024 | relax,PBE-D3(BJ) |
+| 10.1021/acsnano.4c12369 | [NequIP] | [Zn-based MOFs](https://zenodo.org/records/13989347) | 2025 | isotopic strain and randomly perturbing atoms for 2,966 MOFs from QMOF(19,705),PBE-D3(BJ) |
 
 ### Other models
 | DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Materials | Year | Database (# of Total Points) | Train: Val: Test |
