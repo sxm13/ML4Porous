@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/75e5f1ef-2db9-43e3-b3f8-ca308d56fe07)# ML4Porous
+# ML4Porous
 Summarize the machine learning research on porous materials such as COF/MOF/Zeolite so far.<br><br>                                                                
 ![Reported database, software and tools](/figs/years.png "years")                   
                                                  
