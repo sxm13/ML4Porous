@@ -112,8 +112,8 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | |  | | | | 0.998 | 4.5 | 0.42 |	|	|	Xe | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
 | |  | | | | 0.998 | 4.3 | 0.42 |	|	|	C2H6 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
 | |  | | | | 0.998 | 4.0 | 0.14 |	|	|	N2 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
-
-
+| 10.1021/acsomega.1c00100 | XGBoost | | | | 0.951 | | | 0.055 | | Xe | 20%Xe:80%Kr,1bar,298K | MOF | 2020 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
+| | | | | | 0.973 | | | 0.255 | | Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2020 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
 
 
 
