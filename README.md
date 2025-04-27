@@ -1,11 +1,11 @@
-# ML4Porous
+![image](https://github.com/user-attachments/assets/75e5f1ef-2db9-43e3-b3f8-ca308d56fe07)# ML4Porous
 Summarize the machine learning research on porous materials such as COF/MOF/Zeolite so far.<br><br>                                                                
 ![Reported database, software and tools](/figs/years.png "years")                   
                                                  
                                       
 ### Band gap models
 **unit**: eV
-| DOI | Model | R² | MAE | RMSE | SRCC | Year | Database (# of Total Points) | Train: Val: Test |
+| DOI | Model | ${R^{2}}$ | MAE | RMSE | SRCC | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:------|:---|:----|:-----|:-----|:------|:------|:------|
 | 10.1016/j.matt.2021.02.015   | [CGCNN](https://github.com/Andrew-S-Rosen/QMOF/tree/main/machine_learning/cgcnn) | 0.876 | 0.274 | - | 0.932 | 2021 | [QMOF](https://github.com/Andrew-S-Rosen/QMOF)-PBE-D3(BJ) (14,482) | 0.8 : 0.1 : 0.1 |
 | | [KRR (SOAP)](https://github.com/Andrew-S-Rosen/QMOF/tree/main/machine_learning/soap_kernel) | 0.822 | 0.357 | - | 0.910 | 2021 | QMOF-PBE-D3(BJ) (14,482) | 0.8 : - : 0.2 |
@@ -38,7 +38,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 
 ### Partial atomic charge models
 **unit**: e
-| Reference | Model | R² | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
+| Reference | Model | ${R^{2}}$ | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|
 | 10.1021/acs.jpcc.0c04903 | [MPNN](https://github.com/SimonEnsemble/mpn_charges) | - | 0.0250 | - | DDEC | MOF | 2020 | [CoRE MOF 2014 DDEC (2,266)](https://zenodo.org/records/3986573) | 0.7 : 0.1 : 0.2 |
 | 10.1021/acs.chemmater.0c02468 | [GBDT](https://github.com/scidatasoft/mof/) | - | 0.0096 | 0.0176 | DDEC | MOF | 2020 | CoRE MOF 2014 DDEC (2,932)| 0.9 : - : 0.1 |
@@ -85,9 +85,29 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 
 
 
+### Adsorption / separation models
+**unit**: mmol/g, ${cm^{3}}$/g,...
+| DOI | Model | AUC	| sensitivity |	specificity | ${R^{2}}$ | MAPE (%) | MAE | RMSE | SRCC | Adsorbate | Condition	| Adsorbent | Year | Database (# of Total Points) | Train: Val: Test |
+|:----------|:----------|:-------|:-------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| 10.1021/acsami.3c10323 | [PMTransformer](https://github.com/hspark1212/MOFTransformer)  | | | | | | 5.963 |	|	|	H2 | 100bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.069 |	|	|	N2 | 1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.053 |	|	|	O2 | 1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 2.126 |	|	|	CH4 | 65bar | COF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 1.009 |	|	|	CH4 | 5.8bar | COF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 2.995 |	|	|	CH4 | 65bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.461 |	|	|	CH4 | 1bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| 10.1038/s42256-023-00628-2 | [MOFTransformer](https://github.com/hspark1212/MOFTransformer)  | | | | | | 6.377 |	|	|	H2 | 100bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.071 |	|	|	N2 | 1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.051 |	|	|	O2 | 1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 2.268 |	|	|	CH4 | 65bar | COF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.999 |	|	|	CH4 | 5.8bar | COF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 3.187 |	|	|	CH4 | 65bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| | | | | | | | 0.493 |	|	|	CH4 | 1bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| 10.1038/s41467-024-46276-x | [Uni-MOF](https://github.com/dptech-corp/Uni-MOF)  | | | | | | 5.963 |	|	|	CO2,N2,CH4,Kr, Xe | 273K, 298K, 0.01-10Pa | MOF | 2024 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 
 
 
-
-
+### Other models
+| DOI | Model | Purpose | Year |
+|:----------|:------|:-------|:-----|
 
