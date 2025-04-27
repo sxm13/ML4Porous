@@ -118,6 +118,12 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | | | | | 0.989 | | 0.157 | 0.370 | | Kr saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : 0.2 |
 | 10.1021/acsami.3c02130 | [tree-based](https://github.com/hdaglar/BMIM.BF4.MOF_Composites_ML) | | | | 0.712 | | 0.379 | 0.552 | 0.852 | CO2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
 | | | | | | 0.874 | | 0.0234 | 0.0331 | 0.937 | N2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
+| 10.1021/acscombsci.7b00056 | RF | | | | 0.97 | 8.75 | | | | CH4 (cm3/g) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
+| | | | | | 0.92 | 9.22 | | | | CH4 (cm3/cm3) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
+
+
+
+
 
 
 
