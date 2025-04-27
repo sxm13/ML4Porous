@@ -35,7 +35,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | ABR | 0.391 | 0.083 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | | RFR | 0.424 | 0.066 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | [AI2ASE 2025](https://ai-2-ase.github.io/papers/27_1_AAAI_2025_AI4ASE_workshop_MOF.pdf) | [M-MOFormer](https://github.com/IkeYang/M-MOFormer) | - | 0.359 | - | - | 2025 | QMOF-PBE-D3(BJ) (unknown) | 0.7 : 0.15 : 0.15 |
-<br><br>
+
 ### Partial atomic charge models
 **unit**: e
 | Reference | Model | ${R^{2}}$ | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
@@ -61,7 +61,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF | 2024 | [CSD MOF](https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/) (7,598) | 0.8 : - : 0.2 |
 |  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF | 2024 | CURATED COF (792) | benchmark |
 |  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite | 2024 | [Zeo-1 DB](https://archive.materialscloud.org/record/2021.171) (220) | benchmark |
-<br><br>
+
 ### Large language models
 | DOI | Model | Purpose | Year |
 |:----------|:------|:-------|:-----|
@@ -77,11 +77,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/acs.jcim.4c00065   | [Llama2–7B, ChatGLM2–6B, …](https://github.com/MontageBai/Evaluation-of-open-source-large-language-models-for-metal-organic-frameworks-research) | benchmark for different LLM models | 2024 |
 | 10.1021/jacs.4c11085       | [L2M3](https://github.com/Yeonghun1675/L2M3) | prepare a dataset with information from ~40,000 papers | 2025 |
 | 10.1039/D5TA01139F         | [fine-tuning Gemini-1.5](https://github.com/xiaoyu961031/Fine-tuned-Gemini) | hydrophobicity of MOFs | 2025 |
-<br><br>
-### Machine learning potential
-| DOI | Model | Purpose | Year |
-|:----------|:------|:-------|:-----|
-<br><br>
+
 ### Adsorption / separation models
 **unit**: mmol/g, ${cm^{3}}$/g,...
 | DOI | Model  | ${R^{2}}$ | MAPE (%) | MAE | RMSE | SRCC | Adsorbate | Condition	| Adsorbent | Year | Database (# of Total Points) | Train: Val: Test |
@@ -110,7 +106,11 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/jacs.3c14610 | [RF](https://pubs.acs.org/doi/suppl/10.1021/jacs.3c14610/suppl_file/ja3c14610_si_003.zip) | 0.83 | | | | | C3H8/C3H6 selectivity | 50%C3H8:50%C3H6@1bar@298K | MOF | 2024 | CoRE MOF (4,685) | 0.9 : - : 0.1 |
 | 10.1021/acsami.4c11953| [GBR](https://github.com/sxm13/H2-COF-functionalization) | 0.995,0.994 | | 0.073,0.396 | 0.119,0.642 | | H2 (wt.%) (g/L) | 5,100bar,111,231,296K | Functionalized COF | 2024 | CURATED COF (807) | 0.8 : - : 0.2 |
 | 10.1002/anie.202500783 | [XGBoost](https://github.com/breezy-ying/Data-and-ML-Models) | 0.968,0.984 | | | | | C2H6/C2H4 selectivity,C2H6 | 10%C2H6:90%C2H4@1bar | MOF-5 Analogs | 2025 | CSD MOF (2,824) | 0.8 : - : 0.2 |
-<br><br>
+
+### Machine learning potential
+| DOI | Model | Purpose | Year |
+|:----------|:------|:-------|:-----|
+
 ### Other models
 | DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
