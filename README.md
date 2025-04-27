@@ -112,9 +112,12 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | |  | | | | 0.998 | 4.5 | 0.42 |	|	|	Xe | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
 | |  | | | | 0.998 | 4.3 | 0.42 |	|	|	C2H6 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
 | |  | | | | 0.998 | 4.0 | 0.14 |	|	|	N2 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
-| 10.1021/acsomega.1c00100 | XGBoost | | | | 0.951 | | | 0.055 | | Xe | 20%Xe:80%Kr,1bar,298K | MOF | 2020 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
-| | | | | | 0.973 | | | 0.255 | | Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2020 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
-
+| 10.1021/acsomega.1c00100 | XGBoost | | | | 0.951 | | | 0.055 | | Xe | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
+| | | | | | 0.973 | | | 0.255 | | Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2020 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : - : 0.7 |
+| 10.1021/acs.iecr.3c02211 | GBR | | | | 0.951 | | 0.565 | 0.782 | | Xe saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : - : 0.2 |
+| | | | | | 0.989 | | 0.157 | 0.370 | | Kr saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : 0.2 |
+| 10.1021/acsami.3c02130 | [tree-based](https://github.com/hdaglar/BMIM.BF4.MOF_Composites_ML) | | | | 0.712 | | 0.379 | 0.552 | 0.852 | CO2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
+| | | | | | 0.874 | | 0.0234 | 0.0331 | 0.937 | N2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
 
 
 
