@@ -104,8 +104,16 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | | | | | | | 3.187 |	|	|	CH4 | 65bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 | | | | | | | | 0.493 |	|	|	CH4 | 1bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 | 10.1038/s41467-024-46276-x | [Uni-MOF](https://github.com/dptech-corp/Uni-MOF)  | | | | 0.983 | | |	|	|	CO2,N2,CH4,Kr,Xe | 273K, 298K, 0.01-10Pa | MOF | 2024 | [hMOF_MOFX-DB & CoRE_MOFX-DB (2,477,494 points)](https://figshare.com/articles/dataset/Source_Data_file_zip/24996317?file=44038835) | 0.8 : 0.1 : 0.1 |
-| | | | | | 0.916 | | |	|	|	Ar,N2 | 77K, 87K, 1-10E5Pa | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (464,824 points) | 0.8 : 0.1 : 0.1 |
+| | | | | | 0.916 | | |	|	|	Ar,N2 | 77K, 87K, 1Pa-1bar | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (464,824 points) | 0.8 : 0.1 : 0.1 |
 | | | | | | 0.834 | | |	|	|	CH4,CO2,Ar,Kr,Xe,O2,He | 150-300K, 1Pa-3bar | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (99,200 points) | 0.8 : 0.1 : 0.1 |
+| 10.1021/acs.jctc.9b00940 | [ANN](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip)  | | | | 0.998 | 4.4 | 0.17 |	|	|	Ar | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| |  | | | | 0.998 | 4.6 | 0.24 |	|	|	CH4 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| |  | | | | 0.998 | 4.7 | 0.30 |	|	|	Kr | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| |  | | | | 0.998 | 4.5 | 0.42 |	|	|	Xe | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| |  | | | | 0.998 | 4.3 | 0.42 |	|	|	C2H6 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| |  | | | | 0.998 | 4.0 | 0.14 |	|	|	N2 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+
+
 
 
 
