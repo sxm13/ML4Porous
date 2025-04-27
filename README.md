@@ -120,10 +120,9 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | | | | | 0.874 | | 0.0234 | 0.0331 | 0.937 | N2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
 | 10.1021/acscombsci.7b00056 | RF | | | | 0.97 | 8.75 | | | | CH4 (cm3/g) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
 | | | | | | 0.92 | 9.22 | | | | CH4 (cm3/cm3) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
-
-
-
-
+| 10.1039/C8ME00050F | LASSO | | | | 0.96 | | 2.4 | 3.1 | | WC of H2 | 100-2bar,77K | hMOF | 2018 | hMOF (137,953) & CSD MOF (54,776) | 0.08 : - : 0.92 |
+| 10.1021/acs.jpcc.8b09420 | ANN | | | | | | 2.93/1.84/ 1.78/1.59/1.33/1.57/1.38/1.07/0.99/1.06/1.09/1.24/1.14/1.06/0.84/0.83/0.91/0.75 | | | H2 | 0.1/1/5/35/65/100bar,77/160/295K | MOF | 2019 | ToBaCCo (105) | 0.8 : - : 0.2 |
+| 10.1021/acs.chemmater.5b01475 | [RF](http://nanoporousmaterials.org/xekrseparations/) | | | | | | | 2.21 | | Xe/Kr selectivity | 20%Xe:80%Kr,1atm,298K | MOF | 2015 | ToBaCCo (105) | 0.8 : - : 0.2 |
 
 
 
