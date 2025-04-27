@@ -35,7 +35,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | ABR | 0.391 | 0.083 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | | RFR | 0.424 | 0.066 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | [AI2ASE 2025](https://ai-2-ase.github.io/papers/27_1_AAAI_2025_AI4ASE_workshop_MOF.pdf) | [M-MOFormer](https://github.com/IkeYang/M-MOFormer) | - | 0.359 | - | - | 2025 | QMOF-PBE-D3(BJ) (unknown) | 0.7 : 0.15 : 0.15 |
-
+<br><br>
 ### Partial atomic charge models
 **unit**: e
 | Reference | Model | ${R^{2}}$ | MAE | RMSE | Target | Framework | Year | Database (# of Total Points) | Train: Val: Test |
@@ -61,7 +61,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF | 2024 | [CSD MOF](https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/) (7,598) | 0.8 : - : 0.2 |
 |  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF | 2024 | CURATED COF (792) | benchmark |
 |  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite | 2024 | [Zeo-1 DB](https://archive.materialscloud.org/record/2021.171) (220) | benchmark |
-
+<br><br>
 ### Large language models
 | DOI | Model | Purpose | Year |
 |:----------|:------|:-------|:-----|
@@ -77,44 +77,41 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/acs.jcim.4c00065   | [Llama2–7B, ChatGLM2–6B, …](https://github.com/MontageBai/Evaluation-of-open-source-large-language-models-for-metal-organic-frameworks-research) | benchmark for different LLM models | 2024 |
 | 10.1021/jacs.4c11085       | [L2M3](https://github.com/Yeonghun1675/L2M3) | prepare a dataset with information from ~40,000 papers | 2025 |
 | 10.1039/D5TA01139F         | [fine-tuning Gemini-1.5](https://github.com/xiaoyu961031/Fine-tuned-Gemini) | hydrophobicity of MOFs | 2025 |
-
-
+<br><br>
 ### Machine learning potential
 | DOI | Model | Purpose | Year |
 |:----------|:------|:-------|:-----|
-
-
-
+<br><br>
 ### Adsorption / separation models
 **unit**: mmol/g, ${cm^{3}}$/g,...
 | DOI | Model  | ${R^{2}}$ | MAPE (%) | MAE | RMSE | SRCC | Adsorbate | Condition	| Adsorbent | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| 10.1021/acs.chemmater.5b01475 | [RF](http://nanoporousmaterials.org/xekrseparations/) | | | | 2.21 | | Xe/Kr selectivity | 20%Xe:80%Kr,1atm,298K | MOF,PPN,Zeolite | 2015 | Exp MOF (3,640), hMOF (2,750), hPPN (1,000), hZeolite (2,319), IZA (194), hZIF (3,757), hCOF (834)| - : - : -|
+| 10.1021/acscombsci.7b00056 | RF | 0.97,0.92 | 8.75,9.22 | | | | CH4 (cm3/g),(cm3/cm3) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
+| 10.1039/C8ME00050F | LASSO | 0.96 | | 2.4 | 3.1 | | WC of H2 | 100-2bar,77K | hMOF | 2018 | hMOF (137,953) & CSD MOF (54,776) | 0.08 : - : 0.92 |
+| 10.1021/acs.chemmater.8b02257 | RF | 0.905,0.905,0.855,0.870,0.515 | | | | 0.921,0.950,0.938,0.914,0.751 | CO2/N2 selectivity,CO2,CO2/H2 selectivity,WC of CO2,WC of CO2 | 15%CO2:85%N2@1bar,1bar,20%CO2:80%H2@20bar,20%CO2:80%H2@20bar,15%CO2:85%N2@1bar | MOF | 2018 | ToBaCCo MOF (400) | 0.8 : - : 0.2 |
+| 10.1021/acs.jpcc.8b09420 | ANN | | | 2.93,1.84,1.78,1.59,1.33,1.57,1.38,1.07,0.99,1.06,1.09,1.24,1.14,1.06,0.84,0.83,0.91,0.75 | | | H2 | 0.1,1,5,35,65,100bar,77,160,295K | MOF | 2019 | ToBaCCo (105) | 0.8 : - : 0.2 |
+| 10.1021/acs.jctc.9b00940 | [ANN](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 0.998,0.998,0.998,0.998,0.998,0.998 | 4.4,4.6,4.7,4.5,4.3,4.0 | 0.17,0.24,0.30,0.42,0.42,0.14 | | | Ar,CH4,Kr,Xe,C2H6,N2 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
+| 10.1021/acs.chemmater.9b05322 | LR,LR,RF,LR | 0.988,0.985,0.925,0.992 | | | | | WC of C2H6,WC of C2H4,C2H6/C2H4 selectivity,C2H6/C2H4 selectivity | 1-0.1bar,1-0.1bar,1bar,0.1bar,298K | MOF (UiO-66) | 2020 | CoRE MOF (425) | 0.8 : - : 0.2 |
+| 10.1021/acs.jpcc.9b10766 | RF | 0.889,0.824,0.857,0.874 | | 8,16.1,18.2,25.5 | 12.1,23.6,26.4,37.5 | | CH4,CO2,H2S,H2 | 5.8bar@298K,1bar@300K,1bar@300K,2bar,77K | MOF | 2020 | CoRE MOF 2014 DDEC (2,932) | 0.34 : - : 0.66 |
+| 10.1021/jacs.9b11084 | RF | 0.74,0.76 | | 12.5,11.5 | 17.1,17.3 | | CH4,CO2 | 5.8bar@298K,0.5bar@298K | MOF | 2020 | hMOF (78,000) | 50-10,000 for taining |
+| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
+| 10.1021/acs.jcim.2c00876 | [MOFNet](https://github.com/Matgen-project/MOFNet) | | | 2.355,2.233,2.231,2.206,2.196,2.197,2.224,2.212,2.626,2.559,2.516,2.527,2.394,2.352,2.325,2.303,0.208,0.288,0.339,0.378,0.497,0.595,0.778,0.844 | | | N2,CO2,CH4 | 0.2/5/10/20/40/60/80/100,10/50/100/500/1000/1500/20000/50000,50/100/150/200/500/1000/5000/10000kPa | MOF | 2022 | CSD MOF (7,304) (6,997) (8,539) | 0.8 : 0.1 : 0.1 |
+| 10.1021/acsami.2c08977 | [LASSO,GBR,ETR,GBR](https://github.com/hdaglar/MOF-basedMMMs_ML) | 0.99,0.80,0.73,0.84 | | 1.30E-3,5.45E-3,0.212,5.62E-2 | 1.70E-3,9.23E-3,0.339,0.104 | |  He,H2,CH4,N2 | 1bar,298K | MOF Membranes | 2022 | hMOF(677)(2,715)(5,215)(5,224) | 0.8 : - : 0.2 |
+| 10.1021/acs.iecr.3c02211 | GBR | 0.951,0.989 | | 0.565,0.157 | 0.782,0.370 | | Xe,Kr saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : - : 0.2 |
 | 10.1021/acsami.3c10323 | [PMTransformer](https://github.com/hspark1212/MOFTransformer) | | | 5.963,0.069,0.053,2.126,1.009,2.995,0.461 |	|	|	H2,N2,O2,CH4,CH4,CH4,CH4 | 100/1/65/5.8/65/1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 | 10.1038/s42256-023-00628-2  | [MOFTransformer](https://github.com/hspark1212/MOFTransformer) | | | 6.377,0.071,0.051,2.268,0.999,3.187,0.493 |	|	|	H2,N2,O2,CH4,CH4,CH4,CH4 | 100/1/65/5.8/65/1bar | MOF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| 10.1021/acsami.3c02130 | [tree-based](https://github.com/hdaglar/BMIM.BF4.MOF_Composites_ML) | 0.712,0.874 | | 0.379,0.0234 | 0.552,0.0331 | 0.852,0.937 | CO2,N2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
+| 10.1021/jacs.2c11420 | [MOFormer](https://github.com/zcao0420/MOFormer) | | | 0.158,0.545,0.982,0.033,0.161,0.384 | | | CO2,CO2,CO2,CH4,CH4,CH4 | 0.05bar,0.5bar,2.5bar,0.04bar,0.5bar,2.5bar | MOF | 2023 | hMOF (102,858) | 0.7 : 0.15 : 0.15 |
+| 10.1021/acsami.3c10951 | GC-Trans | 0.9811 | | 0.1913 | 0.5319 | 0.9906 | CO2,N2 | 0.1-30bar,273-313K | MOF | 2023 | CSD MOF (3,101) | 0.8 : 0.1 : 0.1 |
 | 10.1038/s41467-024-46276-x | [Uni-MOF](https://github.com/dptech-corp/Uni-MOF) | 0.983 | | |	|	|	CO2,N2,CH4,Kr,Xe | 273K,298K,0.01-10Pa | MOF | 2024 | [hMOF_MOFX-DB & CoRE_MOFX-DB (2,477,494 points)](https://figshare.com/articles/dataset/Source_Data_file_zip/24996317?file=44038835) | 0.8 : 0.1 : 0.1 |
 | | | 0.916 | | |	|	|	Ar,N2 | 77K,87K,1Pa-1bar | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (464,824 points) | 0.8 : 0.1 : 0.1 |
 | | | 0.834 | | |	|	|	CH4,CO2,Ar,Kr,Xe,O2,He | 150-300K, 1Pa-3bar | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (99,200 points) | 0.8 : 0.1 : 0.1 |
-| 10.1021/acs.jctc.9b00940 | [ANN](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 0.998,0.998,0.998,0.998,0.998,0.998 | 4.4,4.6,4.7,4.5,4.3,4.0 | 0.17,0.24,0.30,0.42,0.42,0.14 | | | Ar,CH4,Kr,Xe,C2H6,N2 | 1-100bar | MOF | 2020 | [ToBaCCo MOF (2,400)](https://pubs.acs.org/doi/suppl/10.1021/acs.jctc.9b00940/suppl_file/ct9b00940_si_002.zip) | 9 : 1 : 2 |
-| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
-| 10.1021/acs.iecr.3c02211 | GBR | 0.951,0.989 | | 0.565,0.157 | 0.782,0.370 | | Xe,Kr saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : - : 0.2 |
-| 10.1021/acsami.3c02130 | [tree-based](https://github.com/hdaglar/BMIM.BF4.MOF_Composites_ML) | 0.712,0.874 | | 0.379,0.0234 | 0.552,0.0331 | 0.852,0.937 | CO2,N2 | 1bar,298K | IL/MOF | 2023 | CSD MOF (941) | 0.8 : - : 0.2 |
-| 10.1021/acscombsci.7b00056 | RF | 0.97,0.92 | 8.75,9.22 | | | | CH4 (cm3/g),(cm3/cm3) | 35bar,298K | MOF | 2017 | [hMOF (130,398)](http://hmofs.northwestern.edu/) | 0.08 : - : 0.92 |
-| 10.1039/C8ME00050F | LASSO | 0.96 | | 2.4 | 3.1 | | WC of H2 | 100-2bar,77K | hMOF | 2018 | hMOF (137,953) & CSD MOF (54,776) | 0.08 : - : 0.92 |
-| 10.1021/acs.jpcc.8b09420 | ANN | | | 2.93,1.84,1.78,1.59,1.33,1.57,1.38,1.07,0.99,1.06,1.09,1.24,1.14,1.06,0.84,0.83,0.91,0.75 | | | H2 | 0.1,1,5,35,65,100bar,77,160,295K | MOF | 2019 | ToBaCCo (105) | 0.8 : - : 0.2 |
-| 10.1021/acs.chemmater.5b01475 | [RF](http://nanoporousmaterials.org/xekrseparations/) | | | | 2.21 | | Xe/Kr selectivity | 20%Xe:80%Kr,1atm,298K | MOF,PPN,Zeolite | 2015 | Exp MOF (3,640), hMOF (2,750), hPPN (1,000), hZeolite (2,319), IZA (194), hZIF (3,757), hCOF (834)| - : - : -|
-| 10.1021/acs.chemmater.9b05322 | LR,LR,RF,LR | 0.988,0.985,0.925,0.992 | | | | | WC of C2H6,WC of C2H4,C2H6/C2H4 selectivity,C2H6/C2H4 selectivity | 1-0.1bar,1-0.1bar,1bar,0.1bar,298K | MOF (UiO-66) | 2020 | CoRE MOF (425) | 0.8 : - : 0.2 |
-| 10.1021/acs.chemmater.8b02257 | RF | 0.905,0.905,0.855,0.870,0.515 | | | | 0.921,0.950,0.938,0.914,0.751 | CO2/N2 selectivity,CO2,CO2/H2 selectivity,WC of CO2,WC of CO2 | 15%CO2:85%N2@1bar,1bar,20%CO2:80%H2@20bar,20%CO2:80%H2@20bar,15%CO2:85%N2@1bar | MOF | 2018 | ToBaCCo MOF (400) | 0.8 : - : 0.2 |
-| 10.1021/acs.jpcc.9b10766 | RF | 0.889,0.824,0.857,0.874 | | 8,16.1,18.2,25.5 | 12.1,23.6,26.4,37.5 | | CH4,CO2,H2S,H2 | 5.8bar@298K,1bar@300K,1bar@300K,2bar,77K | MOF | 2020 | CoRE MOF 2014 DDEC (2,932) | 0.34 : - : 0.66 |
-| 10.1021/acsami.2c08977 | [LASSO,GBR,ETR,GBR](https://github.com/hdaglar/MOF-basedMMMs_ML) | 0.99,0.80,0.73,0.84 | | 1.30E-3,5.45E-3,0.212,5.62E-2 | 1.70E-3,9.23E-3,0.339,0.104 | |  He,H2,CH4,N2 | 1bar,298K | MOF Membranes | 2022 | hMOF(677)(2,715)(5,215)(5,224) | 0.8 : - : 0.2 |
-| 10.1002/anie.202500783 | [XGBoost](https://github.com/breezy-ying/Data-and-ML-Models) | 0.968,0.984 | | | | | C2H6/C2H4 selectivity,C2H6 | 10%C2H6:90%C2H4@1bar | MOF-5 Analogs | 2025 | CSD MOF (2,824) | 0.8 : - : 0.2 |
-| 10.1021/jacs.9b11084 | RF | 0.74,0.76 | | 12.5,11.5 | 17.1,17.3 | | CH4,CO2 | 5.8bar@298K,0.5bar@298K | MOF | 2020 | hMOF (78,000) | 50-10,000 for taining |
-| 10.1021/jacs.2c11420 | [MOFormer](https://github.com/zcao0420/MOFormer) | | | 0.158,0.545,0.982,0.033,0.161,0.384 | | | CO2,CO2,CO2,CH4,CH4,CH4 | 0.05bar,0.5bar,2.5bar,0.04bar,0.5bar,2.5bar | MOF | 2023 | hMOF (102,858) | 0.7 : 0.15 : 0.15 |
-| 10.1021/acs.jcim.2c00876 | [MOFNet](https://github.com/Matgen-project/MOFNet) | | | 2.355,2.233,2.231,2.206,2.196,2.197,2.224,2.212,2.626,2.559,2.516,2.527,2.394,2.352,2.325,2.303,0.208,0.288,0.339,0.378,0.497,0.595,0.778,0.844 | | | N2,CO2,CH4 | 0.2/5/10/20/40/60/80/100,10/50/100/500/1000/1500/20000/50000,50/100/150/200/500/1000/5000/10000kPa | MOF | 2022 | CSD MOF (7,304) (6,997) (8,539) | 0.8 : 0.1 : 0.1 |
-| 10.1021/acsami.3c10951 | GC-Trans | 0.9811 | | 0.1913 | 0.5319 | 0.9906 | CO2,N2 | 0.1-30bar,273-313K | MOF | 2023 | CSD MOF (3,101) | 0.8 : 0.1 : 0.1 |
 | 10.1021/jacs.3c14610 | [RF](https://pubs.acs.org/doi/suppl/10.1021/jacs.3c14610/suppl_file/ja3c14610_si_003.zip) | 0.83 | | | | | C3H8/C3H6 selectivity | 50%C3H8:50%C3H6@1bar@298K | MOF | 2024 | CoRE MOF (4,685) | 0.9 : - : 0.1 |
 | 10.1021/acsami.4c11953| [GBR](https://github.com/sxm13/H2-COF-functionalization) | 0.995,0.994 | | 0.073,0.396 | 0.119,0.642 | | H2 (wt.%) (g/L) | 5,100bar,111,231,296K | Functionalized COF | 2024 | CURATED COF (807) | 0.8 : - : 0.2 |
-
+| 10.1002/anie.202500783 | [XGBoost](https://github.com/breezy-ying/Data-and-ML-Models) | 0.968,0.984 | | | | | C2H6/C2H4 selectivity,C2H6 | 10%C2H6:90%C2H4@1bar | MOF-5 Analogs | 2025 | CSD MOF (2,824) | 0.8 : - : 0.2 |
+<br><br>
 ### Other models
-| DOI | Model | Purpose | Year |
-|:----------|:------|:-------|:-----|
-
+| DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Year | Database (# of Total Points) | Train: Val: Test |
+|:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
