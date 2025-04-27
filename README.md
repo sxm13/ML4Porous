@@ -79,6 +79,14 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1039/D5TA01139F         | [fine-tuning Gemini-1.5](https://github.com/xiaoyu961031/Fine-tuned-Gemini) | hydrophobicity of MOFs | 2025 |
 
 
+### Machine learning potential
+| DOI | Model | Purpose | Year |
+|:----------|:------|:-------|:-----|
+
+
+
+
+
 
 
 
