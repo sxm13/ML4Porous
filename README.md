@@ -103,7 +103,10 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | | | | | | | 0.999 |	|	|	CH4 | 5.8bar | COF | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 | | | | | | | | 3.187 |	|	|	CH4 | 65bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
 | | | | | | | | 0.493 |	|	|	CH4 | 1bar | PPN | 2023 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
-| 10.1038/s41467-024-46276-x | [Uni-MOF](https://github.com/dptech-corp/Uni-MOF)  | | | | | | 5.963 |	|	|	CO2,N2,CH4,Kr, Xe | 273K, 298K, 0.01-10Pa | MOF | 2024 | [hMOF by PORMAKE](https://figshare.com/articles/dataset/dx_doi_org_10_6084_m9_figshare_21155506/21155506?file=37511746) (60,000) | 0.8 : 0.1 : 0.1 |
+| 10.1038/s41467-024-46276-x | [Uni-MOF](https://github.com/dptech-corp/Uni-MOF)  | | | | 0.983 | | |	|	|	CO2,N2,CH4,Kr,Xe | 273K, 298K, 0.01-10Pa | MOF | 2024 | [hMOF_MOFX-DB & CoRE_MOFX-DB (2,477,494 points)](https://figshare.com/articles/dataset/Source_Data_file_zip/24996317?file=44038835) | 0.8 : 0.1 : 0.1 |
+| | | | | | 0.916 | | |	|	|	Ar,N2 | 77K, 87K, 1-10E5Pa | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (464,824 points) | 0.8 : 0.1 : 0.1 |
+| | | | | | 0.834 | | |	|	|	CH4,CO2,Ar,Kr,Xe,O2,He | 150-300K, 1Pa-3bar | MOF | 2024 | hMOF_MOFX-DB & CoRE_MOFX-DB (99,200 points) | 0.8 : 0.1 : 0.1 |
+
 
 
 
