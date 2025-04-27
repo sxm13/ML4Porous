@@ -91,7 +91,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/acs.chemmater.9b05322 | LR,LR,RF,LR | 0.988,0.985,0.925,0.992 | | | | | WC of C2H6,WC of C2H4,C2H6/C2H4 selectivity,C2H6/C2H4 selectivity | 1-0.1bar,1-0.1bar,1bar,0.1bar,298K | MOF (UiO-66) | 2020 | CoRE MOF (425) | 0.8 : - : 0.2 |
 | 10.1021/acs.jpcc.9b10766 | RF | 0.889,0.824,0.857,0.874 | | 8,16.1,18.2,25.5 | 12.1,23.6,26.4,37.5 | | CH4,CO2,H2S,H2 | 5.8bar@298K,1bar@300K,1bar@300K,2bar,77K | MOF | 2020 | CoRE MOF 2014 DDEC (2,932) | 0.34 : - : 0.66 |
 | 10.1021/jacs.9b11084 | RF | 0.74,0.76 | | 12.5,11.5 | 17.1,17.3 | | CH4,CO2 | 5.8bar@298K,0.5bar@298K | MOF | 2020 | hMOF (78,000) | 50-10,000 for taining |
-| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
+| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : - : 0.7 |
 | 10.1021/acs.jcim.2c00876 | [MOFNet](https://github.com/Matgen-project/MOFNet) | | | 2.355,2.233,2.231,2.206,2.196,2.197,2.224,2.212,2.626,2.559,2.516,2.527,2.394,2.352,2.325,2.303,0.208,0.288,0.339,0.378,0.497,0.595,0.778,0.844 | | | N2,CO2,CH4 | 0.2/5/10/20/40/60/80/100,10/50/100/500/1000/1500/20000/50000,50/100/150/200/500/1000/5000/10000kPa | MOF | 2022 | CSD MOF (7,304) (6,997) (8,539) | 0.8 : 0.1 : 0.1 |
 | 10.1021/acsami.2c08977 | [LASSO,GBR,ETR,GBR](https://github.com/hdaglar/MOF-basedMMMs_ML) | 0.99,0.80,0.73,0.84 | | 1.30E-3,5.45E-3,0.212,5.62E-2 | 1.70E-3,9.23E-3,0.339,0.104 | |  He,H2,CH4,N2 | 1bar,298K | MOF Membranes | 2022 | hMOF(677)(2,715)(5,215)(5,224) | 0.8 : - : 0.2 |
 | 10.1021/acs.iecr.3c02211 | GBR | 0.951,0.989 | | 0.565,0.157 | 0.782,0.370 | | Xe,Kr saturation loading | 298K | MOF | 2023 | CoRE MOF 2019 (1,081) | 0.8 : - : 0.2 |
@@ -114,4 +114,12 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 ### Other models
 | DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Year | Database (# of Total Points) | Train: Val: Test |
 |:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-| 10.1021/acsomega.1c00100 | XGBoost | 0.951,0.973 | | | 0.055,0.255 | | Xe,Xe/Kr separation | 20%Xe:80%Kr,1bar,298K | MOF | 2021 | [G-MOFs (-)](https://figshare.com/s/ec378d7315581e48f1e4) | 0.3 : 0.7 |
+| 10.1021/acs.jpclett.8b01707 | NN | 0.67 | | | | | | metallic | MOF | 2018 | CoRE MOF 2014 DDEC (2,932) | 0.7 : - : 0.3 |
+| 10.1021/acs.jpclett.0c01518 | [LASSO](https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.0c01518/suppl_file/jz0c01518_si_003.zip) | | | 0.960 | | | | True monolayer area | MOF | 2020 | CoRE MOF (300) | 0.4 : - : 0.6 |
+| 10.1038/s42256-020-00249-z | [RF](https://doi.org/10.5281/zenodo.4014333) | 0.88 | | | | | | Water stability | MOF | 2020 | [Butch et al (207)](https://pubs.acs.org/doi/10.1021/cr5002589) | 0.8 : - : 0.2 |
+| 10.1021/jacs.1c07217 | [ANN](https://github.com/hjkgrp/MOFSimplify) | | | | 44-47 | | | Thermal stability | MOF | 2020 | CoRE MOF 2019 (3,132 points) | 0.8 : - : 0.2 |
+| | | 0.76 | 0.79 | | | | | Solvent removal stability | MOF | 2020 | CoRE MOF 2019 (-) | 0.8 : - : 0.2 |
+| 10.1038/s41563-022-01374-3 | [GBR](https://github.com/SeyedMohamadMoosavi/tools-cp-porousmat) | | | | 0.02 | | 0.98 | Heat capacity | MOF/COF/Zeolite | 2022 | CoRE MOF 2019, QMOF, IZA, CURATED COF (232) | 0.9 : - : 0.1 |
+| 10.1021/jacs.4c05879 | [RF](https://github.com/hjkgrp/MOFSimplify) | 0.75 | 0.80 | | | | | Water stability | MOF | 2024 | [WS24 (964)](https://doi.org/10.5281/zenodo.10982960) | 0.8 : - : 0.2 |
+| 10.1002/adma.202500943 | [XGBoost](https://github.com/gfengITP/MOF-IL) | | | 0.92,0.80,0.86 | 11.8,7.74,0.17 | | | Gravimetric, volumetric capacitance, logarithmic current desity | MOF | 2024 | QMOF (20,375) | 0.8 : - : 0.2 |
+
