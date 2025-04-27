@@ -61,3 +61,25 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |  | | 0.9930 | 0.0240 | 0.0380 | DDEC6 | ionic-MOF | 2024 | [CSD MOF](https://www.ccdc.cam.ac.uk/free-products/csd-mof-collection/) (7,598) | 0.8 : - : 0.2 |
 |  | | 0.9700 | 0.0200 | 0.0330 | DDEC6 | COF | 2024 | CURATED COF (792) | benchmark |
 |  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite | 2024 | [Zeo-1 DB](https://archive.materialscloud.org/record/2021.171) (220) | benchmark |
+
+### Large language models
+| Reference | Model | Purpose | Year |
+|:----------|:------|:-------|:-----|
+| 10.1109/BigData55660.2022.10020568 | [Pre-Trained Language Models](https://github.com/anyuanay/MOF) | domain PLMs outperform in MOF KG extraction, but gaps remain | 2022 |
+| 10.48550/arXiv.2201.08174  | [MOF-KG](https://github.com/KGQA/leaderboard) | KGQA4MAT: ChatGPT-enabled MOF knowledge graph querying benchmark | 2022 |
+| 10.1021/jacs.3c05819       | [CCA](https://github.com/zach-zhiling-zheng/ChatGPT_Chemistry_Assistant) | information extraction from publications | 2023 |
+| 10.1021/jacs.3c12086       | [fine-tuning GPT](https://github.com/zach-zhiling-zheng/Linker-Mutation) | GPT-assisted MOF linker generation via mutation | 2023 |
+| 10.1002/anie.202311983     | [fine-tuning GPT-4](https://github.com/zach-zhiling-zheng/Reticular_Chemist) | GPT-4 guides MOF synthesis via human-AI iterative feedback | 2023 |
+| 10.1021/acscentsci.3c01087 | [ChatGPT-Lab](https://github.com/zach-zhiling-zheng/ChatGPT-Lab) | Multi-AI system accelerates MOF/COF synthesis via ChatGPT and Bayesian search | 2023 |
+| 10.1038/s41467-024-48998-4 | [ChatMOF](https://github.com/Yeonghun1675/ChatMOF) | property-based structure generation | 2024 |
+| 10.26434/chemrxiv-2024-7kds2 | GPT-4 and GPT-4o-based | LLM-powered MOFsyn Agent optimizes synthesis and catalysis | 2024 |
+| 10.1038/s41467-024-45563-x | [fine-tuned GPT-3, Llama-2](https://github.com/LBNLP/NERRE) | LLMs enable flexible extraction of structured materials science knowledge | 2024 |
+| 10.1021/acs.jcim.4c00065   | [Llama2–7B, ChatGLM2–6B, …](https://github.com/MontageBai/Evaluation-of-open-source-large-language-models-for-metal-organic-frameworks-research) | benchmark for different LLM models | 2024 |
+| 10.1021/jacs.4c11085       | [L2M3](https://github.com/Yeonghun1675/L2M3) | prepare a dataset with information from ~40,000 papers | 2025 |
+| 10.1039/D5TA01139F         | [fine-tuning Gemini-1.5](https://github.com/xiaoyu961031/Fine-tuned-Gemini) | hydrophobicity of MOFs | 2025 |
+
+
+
+
+
+
