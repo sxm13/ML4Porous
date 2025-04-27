@@ -63,7 +63,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |  | | 0.9980 | 0.0290 | 0.0550 | DDEC6 | Zeolite | 2024 | [Zeo-1 DB](https://archive.materialscloud.org/record/2021.171) (220) | benchmark |
 
 ### Large language models
-| Reference | Model | Purpose | Year |
+| DOI | Model | Purpose | Year |
 |:----------|:------|:-------|:-----|
 | 10.1109/BigData55660.2022.10020568 | [Pre-Trained Language Models](https://github.com/anyuanay/MOF) | domain PLMs outperform in MOF KG extraction, but gaps remain | 2022 |
 | 10.48550/arXiv.2201.08174  | [MOF-KG](https://github.com/KGQA/leaderboard) | KGQA4MAT: ChatGPT-enabled MOF knowledge graph querying benchmark | 2022 |
