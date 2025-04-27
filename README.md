@@ -110,9 +110,9 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/jacs.9b11084 | RF | 0.74,0.76 | | 12.5,11.5 | 17.1,17.3 | | CH4,CO2 | 5.8bar@298K,0.5bar@298K | MOF | 2020 | hMOF (78,000) | 50-10,000 for taining |
 | 10.1021/jacs.2c11420 | [MOFormer](https://github.com/zcao0420/MOFormer) | | | 0.158,0.545,0.982,0.033,0.161,0.384 | | | CO2,CO2,CO2,CH4,CH4,CH4 | 0.05bar,0.5bar,2.5bar,0.04bar,0.5bar,2.5bar | MOF | 2023 | hMOF (102,858) | 0.7 : 0.15 : 0.15 |
 | 10.1021/acs.jcim.2c00876 | [MOFNet](https://github.com/Matgen-project/MOFNet) | | | 2.355,2.233,2.231,2.206,2.196,2.197,2.224,2.212,2.626,2.559,2.516,2.527,2.394,2.352,2.325,2.303,0.208,0.288,0.339,0.378,0.497,0.595,0.778,0.844 | | | N2,CO2,CH4 | 0.2/5/10/20/40/60/80/100,10/50/100/500/1000/1500/20000/50000,50/100/150/200/500/1000/5000/10000kPa | MOF | 2022 | CSD MOF (7,304) (6,997) (8,539) | 0.8 : 0.1 : 0.1 |
-| 10.1021/acsami.3c10951 | [GC-Trans]() | 0.9811 | | 0.1913 | 0.5319 | 0.9906 | CO2,N2 | 0.1-30bar,273-313K | MOF | 2023 | CSD MOF (3,101) | 0.8 : 0.1 : 0.1 |
-
-
+| 10.1021/acsami.3c10951 | GC-Trans | 0.9811 | | 0.1913 | 0.5319 | 0.9906 | CO2,N2 | 0.1-30bar,273-313K | MOF | 2023 | CSD MOF (3,101) | 0.8 : 0.1 : 0.1 |
+| 10.1021/jacs.3c14610 | [RF](https://pubs.acs.org/doi/suppl/10.1021/jacs.3c14610/suppl_file/ja3c14610_si_003.zip) | 0.83 | | | | | C3H8/C3H6 selectivity | 50%C3H8:50%C3H6@1bar@298K | MOF | 2024 | CoRE MOF (4,685) | 0.9 : - : 0.1 |
+| 10.1021/acsami.4c11953| [GBR](https://github.com/sxm13/H2-COF-functionalization) | 0.995,0.994 | | 0.073,0.396 | 0.119,0.642 | | H2 (wt.%) (g/L) | 5,100bar,111,231,296K | Functionalized COF | 2024 | CURATED COF (807) | 0.8 : - : 0.2 |
 
 ### Other models
 | DOI | Model | Purpose | Year |
