@@ -112,8 +112,8 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |:----------|:------|:-------|:-----|
 
 ### Other models
-| DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Year | Database (# of Total Points) | Train: Val: Test |
-|:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Materials | Year | Database (# of Total Points) | Train: Val: Test |
+|:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 | 10.1021/acs.jpclett.8b01707 | NN | 0.67 | | | | | | metallic | MOF | 2018 | CoRE MOF 2014 DDEC (2,932) | 0.7 : - : 0.3 |
 | 10.1021/acs.jpclett.0c01518 | [LASSO](https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.0c01518/suppl_file/jz0c01518_si_003.zip) | | | 0.960 | | | | True monolayer area | MOF | 2020 | CoRE MOF (300) | 0.4 : - : 0.6 |
 | 10.1038/s42256-020-00249-z | [RF](https://doi.org/10.5281/zenodo.4014333) | 0.88 | | | | | | Water stability | MOF | 2020 | [Butch et al (207)](https://pubs.acs.org/doi/10.1021/cr5002589) | 0.8 : - : 0.2 |
