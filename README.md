@@ -120,14 +120,14 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/acsnano.4c12369 | [NequIP] | [Zn-based MOFs](https://zenodo.org/records/13989347) | 2025 | isotopic strain and randomly perturbing atoms for 2,966 MOFs from QMOF(19,705),PBE-D3(BJ) |
 
 ### Other models
-| DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | RMSE | SRCC | Purpose  | Materials | Year | Database (# of Total Points) | Train: Val: Test |
-|:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-| 10.1021/acs.jpclett.8b01707 | NN | 0.67 | | | | | | metallic | MOF | 2018 | CoRE MOF 2014 DDEC (2,932) | 0.7 : - : 0.3 |
-| 10.1021/acs.jpclett.0c01518 | [LASSO](https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.0c01518/suppl_file/jz0c01518_si_003.zip) | | | 0.960 | | | | True monolayer area | MOF | 2020 | CoRE MOF (300) | 0.4 : - : 0.6 |
-| 10.1038/s42256-020-00249-z | [RF](https://doi.org/10.5281/zenodo.4014333) | 0.88 | | | | | | Water stability | MOF | 2020 | [Butch et al (207)](https://pubs.acs.org/doi/10.1021/cr5002589) | 0.8 : - : 0.2 |
-| 10.1021/jacs.1c07217 | [ANN](https://github.com/hjkgrp/MOFSimplify) | | | | 44-47 | | | Thermal stability | MOF | 2020 | CoRE MOF 2019 (3,132 points) | 0.8 : - : 0.2 |
-| | | 0.76 | 0.79 | | | | | Solvent removal stability | MOF | 2020 | CoRE MOF 2019 (-) | 0.8 : - : 0.2 |
-| 10.1038/s41563-022-01374-3 | [GBR](https://github.com/SeyedMohamadMoosavi/tools-cp-porousmat) | | | | 0.02 | | 0.98 | Heat capacity | MOF/COF/Zeolite | 2022 | CoRE MOF 2019, QMOF, IZA, CURATED COF (232) | 0.9 : - : 0.1 |
-| 10.1021/jacs.4c05879 | [RF](https://github.com/hjkgrp/MOFSimplify) | 0.75 | 0.80 | | | | | Water stability | MOF | 2024 | [WS24 (964)](https://doi.org/10.5281/zenodo.10982960) | 0.8 : - : 0.2 |
-| 10.1002/adma.202500943 | [XGBoost](https://github.com/gfengITP/MOF-IL) | | | 0.92,0.80,0.86 | 11.8,7.74,0.17 | | | Gravimetric, volumetric capacitance, logarithmic current desity | MOF | 2024 | QMOF (20,375) | 0.8 : - : 0.2 |
+| DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | SRCC | Purpose  | Materials | Year | Database (# of Total Points) | Train: Val: Test |
+|:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+| 10.1021/acs.jpclett.8b01707 | NN | 0.67 | | | | | metallic | MOF | 2018 | CoRE MOF 2014 DDEC (2,932) | 0.7 : - : 0.3 |
+| 10.1021/acs.jpclett.0c01518 | [LASSO](https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.0c01518/suppl_file/jz0c01518_si_003.zip) | | | 0.960 | | | True monolayer area | MOF | 2020 | CoRE MOF (300) | 0.4 : - : 0.6 |
+| 10.1038/s42256-020-00249-z | [RF](https://doi.org/10.5281/zenodo.4014333) | 0.88 | | | | | Water stability | MOF | 2020 | [Butch et al (207)](https://pubs.acs.org/doi/10.1021/cr5002589) | 0.8 : - : 0.2 |
+| 10.1021/jacs.1c07217 | [ANN](https://github.com/hjkgrp/MOFSimplify) | | | | 44-47 | | Thermal stability | MOF | 2020 | CoRE MOF 2019 (3,132 points) | 0.8 : - : 0.2 |
+| | | 0.76 | 0.79 | | | | Solvent removal stability | MOF | 2020 | CoRE MOF 2019 (-) | 0.8 : - : 0.2 |
+| 10.1038/s41563-022-01374-3 | [GBR](https://github.com/SeyedMohamadMoosavi/tools-cp-porousmat) | | | | 0.02 | 0.98 | Heat capacity | MOF/COF/Zeolite | 2022 | CoRE MOF 2019, QMOF, IZA, CURATED COF (232) | 0.9 : - : 0.1 |
+| 10.1021/jacs.4c05879 | [RF](https://github.com/hjkgrp/MOFSimplify) | 0.75 | 0.80 | | | | Water stability | MOF | 2024 | [WS24 (964)](https://doi.org/10.5281/zenodo.10982960) | 0.8 : - : 0.2 |
+| 10.1002/adma.202500943 | [XGBoost](https://github.com/gfengITP/MOF-IL) | | | 0.92,0.80,0.86 | 11.8,7.74,0.17 | | Gravimetric, volumetric capacitance, logarithmic current desity | MOF | 2024 | QMOF (20,375) | 0.8 : - : 0.2 |
 
