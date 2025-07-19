@@ -35,6 +35,15 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | | ABR | 0.391 | 0.083 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | | RFR | 0.424 | 0.066 | - | - | 2023 | [EC-MOF](https://ec-mof.njit.edu/)-PBE-D3-U (1,063) | 0.9 : - : 0.1 |
 | [AI2ASE 2025](https://ai-2-ase.github.io/papers/27_1_AAAI_2025_AI4ASE_workshop_MOF.pdf) | [M-MOFormer](https://github.com/IkeYang/M-MOFormer) | - | 0.359 | - | - | 2025 | QMOF-PBE-D3(BJ) (unknown) | 0.7 : 0.15 : 0.15 |
+| 10.1039/D3RA02142D       | CGCNN |  | 0.149 | 0.208 | - | 2023 | QMOF-HSE06 | 0.8 : 0.2 |             
+|        | GCN |  | 0.146 | 0.277 | - | 2023 | QMOF & PMOF - PBE | 0.8 : 0.2 : - |           
+|        | MEGNet | | 0.154 | 0.267 | - | 2023 | QMOF & PMOF - PBE | 0.8 : 0.2 : - |           
+|        | SchNet |  | 0.241 | 0.368 | - | 2023 |QMOF & PMOF - PBE | 0.8 : 0.2 : - |           
+
+
+
+
+
 
 ### Partial atomic charge models
 **unit**: e
