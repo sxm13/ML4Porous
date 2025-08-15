@@ -86,6 +86,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1021/acs.jcim.4c00065   | [Llama2–7B, ChatGLM2–6B, …](https://github.com/MontageBai/Evaluation-of-open-source-large-language-models-for-metal-organic-frameworks-research) | benchmark for different LLM models | 2024 |
 | 10.1021/jacs.4c11085       | [L2M3](https://github.com/Yeonghun1675/L2M3) | prepare a dataset with information from ~40,000 papers | 2025 |
 | 10.1039/D5TA01139F         | [fine-tuning Gemini-1.5](https://github.com/xiaoyu961031/Fine-tuned-Gemini) | hydrophobicity of MOFs | 2025 |
+| 10.26434/chemrxiv-2025-8h5q7 | [MOF-ChemUnity](https://github.com/AI4ChemS/MOF_ChemUnity) | linking literature-derived insights to crystal structures and computational datasets | 2025 |
 
 ### Adsorption / separation models
 **unit**: mmol/g, ${cm^{3}}$/g,...
