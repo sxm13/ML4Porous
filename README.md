@@ -134,6 +134,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 |:----------|:-------|:-------|:-----------|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 | 10.1021/acs.jpclett.8b01707 | NN | 0.67 | | | | | metallic | MOF | 2018 | CoRE MOF 2014 DDEC (2,932) | 0.7 : - : 0.3 |
 | 10.1021/acs.jpclett.0c01518 | [LASSO](https://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.0c01518/suppl_file/jz0c01518_si_003.zip) | | | 0.960 | | | True monolayer area | MOF | 2020 | CoRE MOF (300) | 0.4 : - : 0.6 |
+| 10.1038/s41557-021-00717-y | [GBR](https://github.com/kjappelbaum/oximachinerunner) | 0.98 | | | | | oxidation states | MOF | 2020 | COD & CSD MOF | - : - : - |
 | 10.1038/s42256-020-00249-z | [RF](https://doi.org/10.5281/zenodo.4014333) | 0.88 | | | | | Water stability | MOF | 2020 | [Butch et al (207)](https://pubs.acs.org/doi/10.1021/cr5002589) | 0.8 : - : 0.2 |
 | 10.1021/jacs.1c07217 | [ANN](https://github.com/hjkgrp/MOFSimplify) | | | | 44-47 | | Thermal stability | MOF | 2020 | CoRE MOF 2019 (3,132 points) | 0.8 : - : 0.2 |
 | | | 0.76 | 0.79 | | | | Solvent removal stability | MOF | 2020 | CoRE MOF 2019 (-) | 0.8 : - : 0.2 |
