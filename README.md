@@ -127,7 +127,7 @@ Summarize the machine learning research on porous materials such as COF/MOF/Zeol
 | 10.1039/D3SC05612K | DeePMD-kit | [H2@Al-soc-MOF-1d](https://doi.org/10.5281/zenodo.10686480)  | 2024 | 0.31-5.25wt.%H2,AIMD,NVT(10-100K),1,000*0.5fs,PBE-D3 |
 | 10.1038/s41524-024-01427-y | [SNAP](https://github.com/asharma-ms/MOF_MLP_2024) | [ZIF-8,MOF-5](https://doi.org/10.5281/zenodo.11176257) | 2024 | AIMD,NVT(100-1,000K),2,000*0.5fs,PBE |
 | 10.1038/s41524-024-01205-w | [SkoltechMLIP](https://mlip.skoltech.ru/download) | [MIL-53,MOF-74,MOF-5,UiO-66](https://repository.tugraz.at/records/wyc7s-8en40) | 2024 | relax,PBE-D3(BJ) |
-| 10.1021/acsnano.4c12369 | [NequIP] | [Zn-based MOFs](https://zenodo.org/records/13989347) | 2025 | isotopic strain and randomly perturbing atoms for 2,966 MOFs from QMOF(19,705),PBE-D3(BJ) |
+| 10.1021/acsnano.4c12369 | NequIP | [Zn-based MOFs](https://zenodo.org/records/13989347) | 2025 | isotopic strain and randomly perturbing atoms for 2,966 MOFs from QMOF(19,705),PBE-D3(BJ) |
 
 ### Other models
 | DOI | Model  | Accuracy | AUC | ${R^{2}}$ | MAE | SRCC | Purpose  | Materials | Year | Database (# of Total Points) | Train: Val: Test |
